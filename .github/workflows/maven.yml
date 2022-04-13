@@ -13,8 +13,8 @@ jobs:
   build:
     env:
       DB_DATABASE: leaderboard
-      DB_USER: Cas
-      DB_PASSWORD: test
+      DB_USER: root
+      DB_PASSWORD: root
     runs-on: ubuntu-latest
 
     steps:
