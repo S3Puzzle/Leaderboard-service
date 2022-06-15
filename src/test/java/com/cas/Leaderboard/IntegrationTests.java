@@ -1,4 +1,4 @@
-package com.cas3.Leaderboard;
+package com.cas.Leaderboard;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;

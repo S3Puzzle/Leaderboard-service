@@ -1,8 +1,8 @@
-package com.cas3.Leaderboard;
+package com.cas.Leaderboard;
 
-import com.cas3.Leaderboard.accessingdatamysql.Form;
-import com.cas3.Leaderboard.accessingdatamysql.MainController;
-import com.cas3.Leaderboard.accessingdatamysql.User;
+import com.cas.Leaderboard.accessingdatamysql.Form;
+import com.cas.Leaderboard.accessingdatamysql.MainController;
+import com.cas.Leaderboard.accessingdatamysql.User;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
