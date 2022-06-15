@@ -1,4 +1,4 @@
-package com.cas3.Leaderboard.accessingdatamysql;
+package com.cas.leaderboard.accessingdatamysql;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

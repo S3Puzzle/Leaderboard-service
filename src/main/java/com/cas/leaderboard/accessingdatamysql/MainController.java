@@ -1,4 +1,4 @@
-package com.cas3.Leaderboard.accessingdatamysql;
+package com.cas.leaderboard.accessingdatamysql;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
