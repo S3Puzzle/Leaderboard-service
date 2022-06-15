@@ -1,4 +1,4 @@
-package com.cas.Leaderboard;
+package com.cas.leaderboard;
 
 import org.springframework.boot.test.context.SpringBootTest;
 
