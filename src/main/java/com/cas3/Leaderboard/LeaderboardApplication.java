@@ -1,4 +1,4 @@
-package com.CasS3.Leaderboard;
+package com.cas3.Leaderboard;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
