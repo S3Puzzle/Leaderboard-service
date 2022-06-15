@@ -1,8 +1,7 @@
-package com.CasS3.Leaderboard.accessingdatamysql;
+package com.cas3.Leaderboard.accessingdatamysql;
 
 import org.springframework.data.repository.CrudRepository;
 
-import com.CasS3.Leaderboard.accessingdatamysql.User;
 import java.util.List;
 
 

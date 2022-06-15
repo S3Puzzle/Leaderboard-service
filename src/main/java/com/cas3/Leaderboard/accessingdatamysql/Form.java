@@ -1,4 +1,4 @@
-package com.CasS3.Leaderboard.accessingdatamysql;
+package com.cas3.Leaderboard.accessingdatamysql;
 
 public class Form {
     private String name;
