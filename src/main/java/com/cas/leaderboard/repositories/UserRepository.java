@@ -1,5 +1,6 @@
-package com.cas.leaderboard.accessingdatamysql;
+package com.cas.leaderboard.repositories;
 
+import com.cas.leaderboard.entities.User;
 import org.springframework.data.repository.CrudRepository;
 
 import java.util.List;
