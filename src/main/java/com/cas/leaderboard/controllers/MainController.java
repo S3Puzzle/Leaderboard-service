@@ -16,8 +16,7 @@ public class MainController {
     @CrossOrigin(origins = "http://localhost:8080")
     @PostMapping(path="/add") // Map ONLY POST Requests
     public @ResponseBody User addNewUser (@RequestBody Form form) {
-        User n = userService.addNewUser(form);
-        return n;
+        return userService.addNewUser(form);
     }
     @CrossOrigin(origins = "http://localhost:8080")
     @GetMapping(path="/all")
