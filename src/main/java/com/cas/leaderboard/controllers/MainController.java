@@ -1,6 +1,7 @@
 package com.cas.leaderboard.controllers;
 
 import com.cas.leaderboard.forms.Form;
+import com.cas.leaderboard.entities.Total;
 import com.cas.leaderboard.entities.User;
 import com.cas.leaderboard.services.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -23,4 +24,7 @@ public class MainController {
     public @ResponseBody Iterable<User> getAllUsers() {
         return userService.getAllUsers();
     }
+    @CrossOrigin(origins = "http://localhost:8080")
+    @GetMapping(path="/total")
+    public @ResponseBody Iterable<Total> getTotalPerUsers() { return userService.getTotalPerUsers();}
 }
